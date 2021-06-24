@@ -2,6 +2,13 @@
 
 It is a repository for simple commands to start with Docker.
 
+## Docker Architecture
+
+![Docker Architecture](Static/img/Architecture.svg "Docker Architecture")
+
+source:https://docs.docker.com/get-started/overview
+
+
 ### Install docker on linux, mac or windows
 
 Docker image--> is instruction template for any Container and is not an active entity.
