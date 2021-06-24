@@ -2,7 +2,7 @@
 It is a repository for simple commands to start with Docker.
 
 
-###Install docker on linux, mac or windows.
+### Install docker on linux, mac or windows.
 
 Docker image--> is instruction template for any Container and is not an active entity.
 Container -->is an active entity.
@@ -11,7 +11,7 @@ Deamon --> long running program
 
 
 
-###Creating first docker container:
+### Creating first docker container:
 >docker run 'hello-world'
 //It will run image hello-world if present locally. If not it will download/pull the image from dockerhub and run it locally.
 
@@ -23,7 +23,7 @@ Both above command return all the container
 //it will return all the images present on the system
 
 
-###RUN Ubuntu image on Docker
+### RUN Ubuntu image on Docker
 >docker run -it ubuntu
 //-i for interactive and -t for psuedo tty (
 it does is send the output to the 'virtual' tty (Bash command prompt/terminal) within this docker container. )
@@ -37,7 +37,7 @@ Copy <container id> using docker ps or docker container ls and use
 >Docker attach <container id> 
 
 	
-###Container Management
+### Container Management
 
 Using earlier exited containers use docker ps -a copy< container id>
 >docker start  < container id>
@@ -60,7 +60,7 @@ For removing all containers
 We cannot remove running container. It must to stopped before removing. Otherwise error will come
 
 
-###Image Management
+### Image Management
 
 To check all images present
 >docker images
@@ -80,7 +80,7 @@ And also we can update any image on our account using
 >docker push
 
 
-###Running NGINX (Web Server) on docker
+### Running NGINX (Web Server) on docker
 Directly pulling from reposity and running in iteractive mode
 >docker run -it nginx
 
@@ -108,7 +108,7 @@ Default nginx page is present at /user/share/nginx/html so map it with new html 
 
 
 
-###DOCKERFILE
+### DOCKERFILE
 
 Must create a file with same name Dockerfile.
 
@@ -141,7 +141,7 @@ COPY ->copy external host to internal host
 
 
 
-###Docker Compose
+### Docker Compose
 
 Used to define multi container application
 
