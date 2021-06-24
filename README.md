@@ -4,7 +4,7 @@ It is a repository for simple commands to start with Docker.
 
 ## Docker Architecture
 
-![Docker Architecture](Static/img/Architecture.svg "Docker Architecture")
+![Docker Architecture](https://github.com/YashpalAhlawat/Docker-For-Beginner/blob/main/Static/img/architecture.svg "Docker Architecture")
 
 source:https://docs.docker.com/get-started/overview
 
