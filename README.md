@@ -2,10 +2,6 @@
 
 It is a repository for simple commands to start with Docker.
 
-# Docker-For-Beginner
-
-It is a repository for simple commands to start with Docker.
-
 ### Install docker on linux, mac or windows
 
 Docker image--> is instruction template for any Container and is not an active entity.
