@@ -118,7 +118,7 @@ Directly pulling from reposity and running in iteractive mode
 ```console
 >docker run -it nginx
 ```
-Running nginx container in background without goint into interactive mode and ctl+p+q to keep it alive in background
+Running nginx container in background without going into interactive mode and ctl+p+q to keep it alive in background
 ```console
 >docker run -d nginx
 ```
@@ -126,7 +126,10 @@ Running nginx image or specific port externalport:internalport
 ```console
 >docker run -d -p 8080:80 nginx
 ```
+![Nginx CMD](https://github.com/YashpalAhlawat/Docker-For-Beginner/blob/main/Static/img/nginx_cmd.png "Nginx CMD")
+ 
 we can now access nginx from local browser at 8080
+![Nginx Server](https://github.com/YashpalAhlawat/Docker-For-Beginner/blob/main/Static/img/nginx.png "Nginx Server")
 
 ### Customization of Nginx home page 
 ```console
