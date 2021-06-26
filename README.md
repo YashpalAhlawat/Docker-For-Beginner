@@ -1,6 +1,6 @@
 # Docker-For-Beginner
 
-It is a repository for simple commands to start with Docker.
+It is a repository for simple commands to start with Docker. All commands written here based on macos cli. In windows touch, vim, etc. commands will not work but all docker related commands are working as expected with same syntax.
 
 ## Docker Architecture
 
@@ -11,9 +11,9 @@ source:https://docs.docker.com/get-started/overview
 
 ### Install docker on linux, mac or windows
 
-Docker image--> is instruction template for any Container and is not an active entity.
-Container -->is an active entity.
-Deamon --> long running program.
+Docker image--> is instruction template for any Container and is not an active entity.<br>
+Container -->is an active entity.<br>
+Deamon --> long running program.<br>
 
 ### Creating first docker container
 
